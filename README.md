@@ -26,3 +26,5 @@ devise :database_authenticatable, :registerable, :recoverable, :rememberable,
 
 ### config/initializers/devise.rb
 config.password_length = 8..128
+
+### Add example app/controllers/pages_controller.rb, pages routes, and pages views
