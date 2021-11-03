@@ -1,0 +1,6 @@
+{
+  "name": "Rails API for the Kamstack",
+  "description": "A starter app for a Rails API to power Jamstack apps using Devise and Doorkeeper (oAuth) with sensible defaults.",
+  "repository": "https://github.com/thomasgallagher/jamstack-rails-api",
+  "keywords": ["jamstack", "rails", "api", "starter"]
+}
