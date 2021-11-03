@@ -1,6 +1,7 @@
 # Rails API for the Jamstack
 
 A starter app for a Rails API to power Jamstack apps using Devise and Doorkeeper (oAuth) with sensible defaults.
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## History
@@ -28,3 +29,7 @@ devise :database_authenticatable, :registerable, :recoverable, :rememberable,
 config.password_length = 8..128
 
 ### Add example app/controllers/pages_controller.rb, pages routes, and pages views
+
+### Make Gemfile compatible with Heroku
+bundle lock --add-platform x86_64-darwin
+bundle lock --add-platform x86_64-linux
