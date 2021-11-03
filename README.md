@@ -2,6 +2,10 @@
 
 A starter app for a Rails API to power Jamstack apps using Devise and Doorkeeper (oAuth) with sensible defaults.
 
+* Devise
+* Doorkeeper
+* Heroku Deployable
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## History
